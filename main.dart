@@ -28,19 +28,10 @@ class HomePage extends StatelessWidget {
         title: const Text("Editor Maker"),
         centerTitle: true,
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const Icon(Icons.video_library, size: 80),
-            const SizedBox(height: 20),
-            const Text(
-              "Welcome to Editor Maker App!",
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 10),
-            const Text("Templates • Editing • Premium Edits"),
-          ],
+      body: const Center(
+        child: Text(
+          "Welcome to Editor Maker App!",
+          style: TextStyle(fontSize: 20),
         ),
       ),
     );
